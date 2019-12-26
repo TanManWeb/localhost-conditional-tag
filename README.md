@@ -39,12 +39,12 @@ You can combine with existing conditional tags:
 ```
 
 ## Practical uses of this plugin
-- to prevent running analytics, statistics and other page trackers on localhost
+- to prevent analytics, statistics and other page trackers to run on localhost that may potentially slow down page loading times
 - to display messages and/or execute snippets of code only on localhost
 - to display messages and/or execute snippets of code only on the live website
 
 ## Screenshots
-This plugin does not add anything to the WordPress backend. There are no screenshots.
+There are no screenshots because this plugin does not add anything to the WordPress backend. 
 
 ## Changelog
 Version 1.0.0 - First plugin release.
