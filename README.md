@@ -43,6 +43,10 @@ You can combine with existing conditional tags:
 - to display messages and/or execute snippets of code only on localhost
 - to display messages and/or execute snippets of code only on the live website
 
+## Installation
+1. Upload the entire "localhost-conditional-tag" folder to the "/wp-content/plugins/" directory.
+2. Activate the plugin through the "Plugins" menu in WordPress.
+
 ## Screenshots
 There are no screenshots because this plugin does not add anything to the WordPress backend. 
 
