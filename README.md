@@ -54,8 +54,8 @@ You can combine with existing conditional tags:
 
 ## Installation
 1. After you download it, unzip the plugin files.
-1. Upload the entire plugin folder to the "/wp-content/plugins/" directory of your WordPress installation.
-2. Activate the plugin through the "Plugins" menu in WordPress.
+2. Upload the entire plugin folder to the "/wp-content/plugins/" directory of your WordPress installation.
+3. Activate the plugin through the "Plugins" menu in WordPress.
 
 ## Screenshots
 There are no screenshots because this plugin does not add anything to the WordPress backend. 
