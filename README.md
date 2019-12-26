@@ -11,7 +11,16 @@ is_localhost()
 ```
 
 ## How to use it in your WordPress template
-There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize this plugin in your WordPress theme files in your PHP programming. Here are a few examples:
+There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize this plugin in your WordPress theme files in your PHP programming. 
+
+Basic example:
+```
+<?php if ( is_localhost() ) { ?>
+  <h1>Hello. This is only on my localhost.</h1>  
+<?php } ?>
+```
+
+More examples:
 ```
 <?php if ( is_localhost() ) { 
      echo "This is visible only on localhost. You will not see this message on the live site.";
