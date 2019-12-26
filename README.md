@@ -11,10 +11,10 @@ is_localhost()
 ```
 
 ## How to use it in your WordPress template
-There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize this plugin in your WordPress theme files by simply adding to your PHP programming. Here is an example:
+There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize this plugin in your WordPress theme files in your PHP programming. Here is an example:
 ```
 <?php if ( is_localhost() ) { 
-     echo "This is only visible on localhost. You will not see this message on the live site.";
+     echo "This is visible only on localhost. You will not see this message on the live site.";
 } ?>
 ```
 Likewise, you can also use the NOT statement:
@@ -23,10 +23,30 @@ Likewise, you can also use the NOT statement:
      echo "This is NOT visible on localhost. You will see this message on the live site.";
 } ?>
 ```
-You can combine with existing conditional tags:
+You can also use the ELSE statement:
 ```
-<?php if ( is_localhost() && is_single ) { 
-     echo "This message is visible on localhost and will appear only on single posts.";
+<?php if ( is_localhost() ) { 
+     echo "This is visible only on localhost.";
+} else {
+     echo "This is visible only on the live site.";
 } ?>
 ```
+You can combine with existing conditional tags:
+```
+<?php if ( is_localhost() && is_single() ) { 
+     echo "This message is visible on localhost and will appear only on single post pages.";
+} ?>
+```
+
+## Practical uses of this plugin
+- to prevent running analytics, statistics and other page trackers on localhost
+- to display messages and/or execute snippets of code only on localhost
+- to display messages and/or execute snippets of code only on the live website
+
+## Screenshots
+This plugin does not add anything to the WordPress backend. There are no screenshots.
+
+## Changelog
+Version 1.0.0 - First plugin release.
+
 
