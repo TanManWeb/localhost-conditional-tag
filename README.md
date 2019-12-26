@@ -39,7 +39,7 @@ You can combine with existing conditional tags:
 ```
 
 ## Practical uses of this plugin
-- to prevent analytics, statistics and other page trackers to run on localhost that may potentially slow down page loading times
+- to prevent analytics, hit counters and other page trackers to run on localhost which may potentially slow down page loading times and unintentionally affect your stats
 - to display messages and/or execute snippets of code only on localhost
 - to display messages and/or execute snippets of code only on the live website
 
