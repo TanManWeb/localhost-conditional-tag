@@ -2,7 +2,7 @@
 Localhost Conditional Tag is a very simple and lightweight plugin that allows you to utilize the localhost conditional tag in the PHP programming of your WordPress theme.
 
 ## Why do I need this plugin?
-If you are a WordPress developer, sometimes you have snippets of code that you want to run only on your localhost development server. The other way around, sometimes you want to have snippets of code that you don't want to run on your localhost development server. Hence, this is where this plugin comes in handy. 
+If you are a WordPress developer, sometimes you have snippets of code that you want to run only on your localhost development server. Likewise, sometimes you want to have snippets of code that you don't want to run on your localhost development server. Hence, this is where this plugin comes in handy. 
 
 ## A new Conditional Tag
 WordPress has an extensive list of [conditional tags](https://codex.wordpress.org/Conditional_Tags) that you can use in your template files. This plugin adds a new conditional tag:
