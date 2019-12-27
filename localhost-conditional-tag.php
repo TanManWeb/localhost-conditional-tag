@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: Localhost Conditional Tag
-Description: A very simple and lightweight plugin that allows you to utilize the localhost conditional tag in the PHP programming of your WordPress theme.
+Description: A simple and lightweight plugin that allows you to utilize the localhost conditional tag in the PHP programming of your WordPress theme.
 Author: TanManWeb
 Author URI: https://github.com/TanManWeb/
 Version: 1.0.0
