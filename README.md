@@ -61,6 +61,8 @@ You can combine with existing conditional tags:
 There are no screenshots because this plugin does not add anything to the WordPress backend. 
 
 ## Changelog
+Version 1.1.0 - Added new conditional statements
+
 Version 1.0.0 - First plugin release.
 
 
