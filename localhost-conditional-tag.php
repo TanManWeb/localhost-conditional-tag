@@ -9,9 +9,7 @@ Text Domain: localhost-conditional-tag
 */
 
 if ( ! function_exists( 'is_localhost' ) ) {
-
-	function is_localhost() {
-		
+	function is_localhost() {		
 		$server_name = $_SERVER['SERVER_NAME'];
 		$server_addr = $_SERVER['SERVER_ADDR'];
 
@@ -19,7 +17,5 @@ if ( ! function_exists( 'is_localhost' ) ) {
 			$env = "localhost";			
 		}
 		return $env;	
-
 	}
-
 }
